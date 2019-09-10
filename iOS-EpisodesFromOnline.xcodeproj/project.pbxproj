@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9DFC4B2328234900664018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC4A2328234900664018 /* AppDelegate.swift */; };
+		EC9DFC4D2328234900664018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC4C2328234900664018 /* ViewController.swift */; };
+		EC9DFC502328234900664018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9DFC4E2328234900664018 /* Main.storyboard */; };
+		EC9DFC522328234B00664018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9DFC512328234B00664018 /* Assets.xcassets */; };
+		EC9DFC552328234B00664018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9DFC532328234B00664018 /* LaunchScreen.storyboard */; };
+		EC9DFC602328234B00664018 /* iOS_EpisodesFromOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC5F2328234B00664018 /* iOS_EpisodesFromOnlineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9DFC5C2328234B00664018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9DFC3F2328234900664018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9DFC462328234900664018;
+			remoteInfo = "iOS-EpisodesFromOnline";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9DFC472328234900664018 /* iOS-EpisodesFromOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-EpisodesFromOnline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9DFC4A2328234900664018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC9DFC4C2328234900664018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC9DFC4F2328234900664018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9DFC512328234B00664018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9DFC542328234B00664018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9DFC562328234B00664018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9DFC5B2328234B00664018 /* iOS-EpisodesFromOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-EpisodesFromOnlineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9DFC5F2328234B00664018 /* iOS_EpisodesFromOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_EpisodesFromOnlineTests.swift; sourceTree = "<group>"; };
+		EC9DFC612328234B00664018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9DFC442328234900664018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9DFC582328234B00664018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9DFC3E2328234900664018 = {
+			isa = PBXGroup;
+			children = (
+				EC9DFC492328234900664018 /* iOS-EpisodesFromOnline */,
+				EC9DFC5E2328234B00664018 /* iOS-EpisodesFromOnlineTests */,
+				EC9DFC482328234900664018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9DFC482328234900664018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9DFC472328234900664018 /* iOS-EpisodesFromOnline.app */,
+				EC9DFC5B2328234B00664018 /* iOS-EpisodesFromOnlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9DFC492328234900664018 /* iOS-EpisodesFromOnline */ = {
+			isa = PBXGroup;
+			children = (
+				EC9DFC6A2328235200664018 /* Supporting Files */,
+				EC9DFC4C2328234900664018 /* ViewController.swift */,
+				EC9DFC4E2328234900664018 /* Main.storyboard */,
+				EC9DFC512328234B00664018 /* Assets.xcassets */,
+				EC9DFC562328234B00664018 /* Info.plist */,
+			);
+			path = "iOS-EpisodesFromOnline";
+			sourceTree = "<group>";
+		};
+		EC9DFC5E2328234B00664018 /* iOS-EpisodesFromOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9DFC5F2328234B00664018 /* iOS_EpisodesFromOnlineTests.swift */,
+				EC9DFC612328234B00664018 /* Info.plist */,
+			);
+			path = "iOS-EpisodesFromOnlineTests";
+			sourceTree = "<group>";
+		};
+		EC9DFC6A2328235200664018 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9DFC4A2328234900664018 /* AppDelegate.swift */,
+				EC9DFC532328234B00664018 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9DFC462328234900664018 /* iOS-EpisodesFromOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9DFC642328234B00664018 /* Build configuration list for PBXNativeTarget "iOS-EpisodesFromOnline" */;
+			buildPhases = (
+				EC9DFC432328234900664018 /* Sources */,
+				EC9DFC442328234900664018 /* Frameworks */,
+				EC9DFC452328234900664018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-EpisodesFromOnline";
+			productName = "iOS-EpisodesFromOnline";
+			productReference = EC9DFC472328234900664018 /* iOS-EpisodesFromOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9DFC5A2328234B00664018 /* iOS-EpisodesFromOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9DFC672328234B00664018 /* Build configuration list for PBXNativeTarget "iOS-EpisodesFromOnlineTests" */;
+			buildPhases = (
+				EC9DFC572328234B00664018 /* Sources */,
+				EC9DFC582328234B00664018 /* Frameworks */,
+				EC9DFC592328234B00664018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9DFC5D2328234B00664018 /* PBXTargetDependency */,
+			);
+			name = "iOS-EpisodesFromOnlineTests";
+			productName = "iOS-EpisodesFromOnlineTests";
+			productReference = EC9DFC5B2328234B00664018 /* iOS-EpisodesFromOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9DFC3F2328234900664018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexander George Legaspi";
+				TargetAttributes = {
+					EC9DFC462328234900664018 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EC9DFC5A2328234B00664018 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC9DFC462328234900664018;
+					};
+				};
+			};
+			buildConfigurationList = EC9DFC422328234900664018 /* Build configuration list for PBXProject "iOS-EpisodesFromOnline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9DFC3E2328234900664018;
+			productRefGroup = EC9DFC482328234900664018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9DFC462328234900664018 /* iOS-EpisodesFromOnline */,
+				EC9DFC5A2328234B00664018 /* iOS-EpisodesFromOnlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9DFC452328234900664018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9DFC552328234B00664018 /* LaunchScreen.storyboard in Resources */,
+				EC9DFC522328234B00664018 /* Assets.xcassets in Resources */,
+				EC9DFC502328234900664018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9DFC592328234B00664018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9DFC432328234900664018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9DFC4D2328234900664018 /* ViewController.swift in Sources */,
+				EC9DFC4B2328234900664018 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9DFC572328234B00664018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9DFC602328234B00664018 /* iOS_EpisodesFromOnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9DFC5D2328234B00664018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9DFC462328234900664018 /* iOS-EpisodesFromOnline */;
+			targetProxy = EC9DFC5C2328234B00664018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9DFC4E2328234900664018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9DFC4F2328234900664018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9DFC532328234B00664018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9DFC542328234B00664018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9DFC622328234B00664018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9DFC632328234B00664018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9DFC652328234B00664018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-EpisodesFromOnline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aglegaspi.iOS-EpisodesFromOnline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9DFC662328234B00664018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-EpisodesFromOnline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aglegaspi.iOS-EpisodesFromOnline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC9DFC682328234B00664018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-EpisodesFromOnlineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aglegaspi.iOS-EpisodesFromOnlineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-EpisodesFromOnline.app/iOS-EpisodesFromOnline";
+			};
+			name = Debug;
+		};
+		EC9DFC692328234B00664018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-EpisodesFromOnlineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aglegaspi.iOS-EpisodesFromOnlineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-EpisodesFromOnline.app/iOS-EpisodesFromOnline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9DFC422328234900664018 /* Build configuration list for PBXProject "iOS-EpisodesFromOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9DFC622328234B00664018 /* Debug */,
+				EC9DFC632328234B00664018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9DFC642328234B00664018 /* Build configuration list for PBXNativeTarget "iOS-EpisodesFromOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9DFC652328234B00664018 /* Debug */,
+				EC9DFC662328234B00664018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9DFC672328234B00664018 /* Build configuration list for PBXNativeTarget "iOS-EpisodesFromOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9DFC682328234B00664018 /* Debug */,
+				EC9DFC692328234B00664018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9DFC3F2328234900664018 /* Project object */;
+}
