@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EC9DFC4B2328234900664018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC4A2328234900664018 /* AppDelegate.swift */; };
-		EC9DFC4D2328234900664018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC4C2328234900664018 /* ViewController.swift */; };
+		EC9DFC4D2328234900664018 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC4C2328234900664018 /* MainViewController.swift */; };
 		EC9DFC502328234900664018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9DFC4E2328234900664018 /* Main.storyboard */; };
 		EC9DFC522328234B00664018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9DFC512328234B00664018 /* Assets.xcassets */; };
 		EC9DFC552328234B00664018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9DFC532328234B00664018 /* LaunchScreen.storyboard */; };
 		EC9DFC602328234B00664018 /* iOS_EpisodesFromOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC5F2328234B00664018 /* iOS_EpisodesFromOnlineTests.swift */; };
+		EC9DFC6C23282CED00664018 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DFC6B23282CED00664018 /* Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		EC9DFC472328234900664018 /* iOS-EpisodesFromOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-EpisodesFromOnline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9DFC4A2328234900664018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC9DFC4C2328234900664018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC9DFC4C2328234900664018 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EC9DFC4F2328234900664018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC9DFC512328234B00664018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC9DFC542328234B00664018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		EC9DFC5B2328234B00664018 /* iOS-EpisodesFromOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-EpisodesFromOnlineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9DFC5F2328234B00664018 /* iOS_EpisodesFromOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_EpisodesFromOnlineTests.swift; sourceTree = "<group>"; };
 		EC9DFC612328234B00664018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9DFC6B23282CED00664018 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				EC9DFC6A2328235200664018 /* Supporting Files */,
-				EC9DFC4C2328234900664018 /* ViewController.swift */,
+				EC9DFC4C2328234900664018 /* MainViewController.swift */,
+				EC9DFC6B23282CED00664018 /* Show.swift */,
 				EC9DFC4E2328234900664018 /* Main.storyboard */,
 				EC9DFC512328234B00664018 /* Assets.xcassets */,
 				EC9DFC562328234B00664018 /* Info.plist */,
@@ -205,7 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC9DFC4D2328234900664018 /* ViewController.swift in Sources */,
+				EC9DFC6C23282CED00664018 /* Show.swift in Sources */,
+				EC9DFC4D2328234900664018 /* MainViewController.swift in Sources */,
 				EC9DFC4B2328234900664018 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
